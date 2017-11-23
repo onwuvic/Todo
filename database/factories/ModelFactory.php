@@ -22,3 +22,16 @@ $factory->define(App\User::class, function (Faker\Generator $faker) {
         'remember_token' => str_random(10),
     ];
 });
+
+$factory->define(App\Task::class, function (Faker\Generator $faker) {
+
+    return [
+        'task' => $faker->sentence,
+        'user_id' => function() {
+        	return factory('App\User')->create()->id;
+        },
+        'hour' => 7,
+        'minute' => 45,
+        'period' => 'AM',
+    ];
+});
