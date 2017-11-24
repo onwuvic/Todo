@@ -27,11 +27,8 @@ $factory->define(App\Task::class, function (Faker\Generator $faker) {
 
     return [
         'task' => $faker->sentence,
-        'user_id' => function() {
-        	return factory('App\User')->create()->id;
-        },
-        'hour' => 7,
-        'minute' => 45,
+        'hour' => '7',
+        'minute' => '45',
         'period' => 'AM',
     ];
 });
