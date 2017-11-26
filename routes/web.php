@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'TasksController@index');
+Route::post('/todo', 'TasksController@store');
+Route::delete('/todo/{taskId}', 'TasksController@destroy');
