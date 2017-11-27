@@ -22,7 +22,7 @@
               <div class="content-center brand">
                   <i class="fa fa-bandcamp n-logo"></i>
                   <h1 class="h1-seo">Timeless</h1>
-                  <h3>Make Every seconds count in Your Day</h3>
+                  <h3>Make Every Seconds of Your Day Count</h3>
               </div> 
               <span class="add" data-toggle="modal" data-target="#addTask"><i class="fa fa-plus fa-lg"></i></span>
           </div>
