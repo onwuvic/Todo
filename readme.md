@@ -1,4 +1,4 @@
-<p align="center">A Simple TDD Todo Application with VueJs and Laravel</p>
+## A Simple TDD Todo Application with VueJs and Laravel
 
 ## About Daily Planner App
 
@@ -6,39 +6,37 @@ Daily Planner is a simple test driven development todo app where user can create
 
 ## TDD Feature Test
 
-- A user can create todo task.
-- A user can delete todo task.
+- User can create todo task.
+- User can delete todo task.
+- User can see all created todo task.
 
 ## TDD Validation Test
 - Task name input field must not be empty.
 - The hour, minute input field must not be empty and must be numerical.
 - The period input field must not be empty
 
-## How to set-up the application
+## How to Install the application
+- Open Git Bash or Command line.
+- Change the current working directory to the location where you want the cloned directory to be made.
+- Type  git clone https://github.com/onwuvic/Todo.git or click Clone or download and download the zip file
+- Navigate to the directory $ cd Todo.
+- Type $ composer install
+- Go to the working directory root folder and rename the .env.example to .env
+- Run the following command to generate your app key: php artisan key:generate
+- install nodeJs on your computer
+- Run the following command to get your node dependencies: npm install
+- download Xampp or Wampp if you are using mysql to handle your database info, create your database, username and password (feel free to use any other database).
+- Go to .env file and type your database credentials: DB_CONNECTION=mysql (you can change this if you are using other database), DB_DATABASE=homestead (your database name), DB_USERNAME=homestead (your database username), DB_PASSWORD=secret (your database password).
+- Run the following command to set up the database schema: php artisan migrate.
+- Check if all test passed run: phpunit or vendor\bin\phpunit
+- Then start your server: php artisan serve
+- visit: http://127.0.0.1:8000 on your browser.
+## And You Have Your Todo App Live!!!!
 
-Laravel has the most extensive and thorough documentation and video tutorial library of any modern web application framework. The [Laravel documentation](https://laravel.com/docs) is thorough, complete, and makes it a breeze to get started learning the framework.
+## App Sample
 
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 900 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for helping fund on-going Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](http://patreon.com/taylorotwell):
-
-- **[Vehikl](http://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Styde](https://styde.net)**
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+<p align="center">
+<img src="https://res.cloudinary.com/dwf8aqhry/image/upload/v1511796011/frontpage_fvgmzk.png">
+<img src="https://res.cloudinary.com/dwf8aqhry/image/upload/c_scale,h_1553/v1511796276/createtask_g3j0of.png">
+<img src="https://res.cloudinary.com/dwf8aqhry/image/upload/c_scale,h_1076/v1511797205/todotask_f1smkc.png">
+</p>
