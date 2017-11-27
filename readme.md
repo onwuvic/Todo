@@ -36,13 +36,13 @@ Daily Planner is a simple test driven development todo app where user can create
 ## App Sample
 
 <p align="center">
-<img src="https://res.cloudinary.com/dwf8aqhry/image/upload/v1511796011/frontpage_fvgmzk.png" width="300" height="400">
+<img src="https://res.cloudinary.com/dwf8aqhry/image/upload/v1511796011/frontpage_fvgmzk.png" width="300" height="600">
 </p>
 
-<p align="create">
-<img src="https://res.cloudinary.com/dwf8aqhry/image/upload/c_scale,h_1553/v1511796276/createtask_g3j0of.png" width="300" height="400">
+<p align="center">
+<img src="https://res.cloudinary.com/dwf8aqhry/image/upload/c_scale,h_1553/v1511796276/createtask_g3j0of.png" width="300" height="600">
 </p>
 
-<p align="create">
-<img src="https://res.cloudinary.com/dwf8aqhry/image/upload/c_scale,h_1076/v1511797205/todotask_f1smkc.png" width="300" height="400">
+<p align="center">
+<img src="https://res.cloudinary.com/dwf8aqhry/image/upload/c_scale,h_1076/v1511797205/todotask_f1smkc.png" width="300" height="600">
 </p>
