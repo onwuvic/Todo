@@ -80,7 +80,7 @@
                         <div class="row space">
                           <div class="col-auto">
                             <label class="mr-sm-2" for="hour">Hour</label>
-                            <select id="hour" name="hour" class="custom-select mb-2 mr-sm-2 mb-sm-0">
+                            <select id="hour" name="hour" class="custom-select mb-2 mr-sm-2 mb-sm-0" required>
                               <option selected>Choose...</option>
                               <option value="1">1</option>
                               <option value="2">2</option>
@@ -99,7 +99,7 @@
 
                           <div class="col-auto">
                             <label class="mr-sm-2" for="minute">Minutes</label>
-                            <select id="minute" name="minute" class="custom-select mb-2 mr-sm-2 mb-sm-0">
+                            <select id="minute" name="minute" class="custom-select mb-2 mr-sm-2 mb-sm-0" required>
                               <option selected>Choose...</option>
                               <option value="01">01</option>
                               <option value="02">02</option>
@@ -165,7 +165,7 @@
                           </div>
 
                           <div class="col-auto">
-                            <select id="period" name="period" class="custom-select mb-2 mr-sm-2 mb-sm-0">
+                            <select id="period" name="period" class="custom-select mb-2 mr-sm-2 mb-sm-0" required>
                               <option value="AM" selected>AM</option>
                               <option value="PM">PM</option>
                             </select>
